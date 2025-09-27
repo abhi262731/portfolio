@@ -18,7 +18,7 @@ menuToggle.addEventListener("click", function() {
 });
 
 // typing 
-const words = ['Front-end Developer', 'Angular Developer', 'Web Developer'];
+const words = ['Front-end Developer', 'Backend Developer', 'Web Developer'];
 const typeWriter = document.getElementById('type-writer');
 let index = 0;
 let wordIndex = 0;
@@ -46,31 +46,4 @@ function erase() {
 
 setTimeout(type, 1000);
 
-// // animation 
-// // left to right
-// const observer=new IntersectionObserver((enteries)=>{
-//   enteries.forEach((entry)=>{
-//     console.log(entry)
-//     if (entry.isIntersecting){
-//       entry.target.classList.add('visible');
-//     }else{
-//       entry.target.classList.remove('visible');
-//     }
-//   })
-// })
-// const hiddenElements=document.querySelectorAll('.hidden');
-// hiddenElements.forEach((el)=>observer.observe(el));
 
-// // right to left 
-// const neWanim=new IntersectionObserver((enteries)=>{
-//   enteries.forEach((entry)=>{
-//     console.log(entry)
-//     if (entry.isIntersecting){
-//       entry.target.classList.add('light');
-//     }else{
-//       entry.target.classList.remove('light');
-//     }
-//   })
-// })
-// const hideElem=document.querySelectorAll('.hide');
-// hideElem.forEach((el)=>neWanim.observe(el));
